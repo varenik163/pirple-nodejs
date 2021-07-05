@@ -9,7 +9,10 @@ const _data = require('./lib/data');
 
 // Test
 // @TODO remove this
-_data.create('test', 'newFile', {'ads': 'dasdas'})
+// _data.create('test', 'newFile.json', { 0: "create test" });
+// _data.read('test', 'newFile.json', (err, data) => { console.log(err, data) });
+// _data.update('test', 'newFile.json', { 1: "update test" });
+// _data.delete('test', 'newFile.json');
 
 const { httpPort, httpsPort } = config;
 

@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b26f7d7d-df1b-40b6-ba5b-b915be98232c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pirple-nodejs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/https/cert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/https/key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/test/newFile.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,18 +66,34 @@
       <workItem from="1622619240061" duration="648000" />
       <workItem from="1622620116302" duration="532000" />
       <workItem from="1622633229232" duration="79000" />
-      <workItem from="1623696118748" duration="200000" />
+      <workItem from="1623696118748" duration="6004000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1623696591298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623696591298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617010379130">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1617010379130" />
+    <state x="424" y="99" key="CommitChangelistDialog2" timestamp="1623696591053">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="424" y="99" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1623696591053" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1617086906010">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -105,9 +114,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1618399507658" />
-    <state x="505" y="233" key="search.everywhere.popup" timestamp="1618824951070">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1623696593382">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1618824951070" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1623696593382" />
+    <state x="505" y="233" key="search.everywhere.popup" timestamp="1625474325979">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1625474325979" />
   </component>
 </project>
