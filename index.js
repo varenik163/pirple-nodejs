@@ -6,6 +6,7 @@ const { StringDecoder } = require('string_decoder');
 
 const config = require('./config');
 const _data = require('./lib/data');
+const handlers = require('./lib/handlers')
 
 // Test
 // @TODO remove this
@@ -47,7 +48,7 @@ const server = (req, res) => {
 			query,
 			method,
 			headers,
-			payload: buffer
+			payload: buffer && JSON.parse(buffer)
 		};
 		chosenHandler(data, (statusCode = 200, payload = {}) => {
 			const payloadString = JSON.stringify(payload);
@@ -86,21 +87,10 @@ httpsServer.listen(httpsPort, () => {
 	);
 });
 
-// Handlers
-
-const handlers = {
-	ping: (data, callback) => {
-		callback(200);
-	},
-	hello: (data, callback) => {
-		callback(200, { message: 'You are Welcome!' });
-	},
-	notFound: (data, callback) => {
-		callback(404);
-	}
-};
-
 const router = {
+	'user': handlers.user,
+	'token': handlers.token,
+	// funny services
 	'ping': handlers.ping,
 	'hello': handlers.hello,
 	'notFound': handlers.notFound,

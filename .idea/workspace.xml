@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b26f7d7d-df1b-40b6-ba5b-b915be98232c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.data/test/newFile.json" beforeDir="false" />
+    <list default="true" id="b26f7d7d-df1b-40b6-ba5b-b915be98232c" name="Default Changelist" comment="crud">
+      <change afterPath="$PROJECT_DIR$/lib/handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/string.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data.js" afterDir="false" />
     </list>
@@ -29,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -66,7 +88,13 @@
       <workItem from="1622619240061" duration="648000" />
       <workItem from="1622620116302" duration="532000" />
       <workItem from="1622633229232" duration="79000" />
-      <workItem from="1623696118748" duration="6004000" />
+      <workItem from="1623696118748" duration="8235000" />
+      <workItem from="1625552479635" duration="5381000" />
+      <workItem from="1625603210183" duration="31000" />
+      <workItem from="1625654135622" duration="11401000" />
+      <workItem from="1626850797619" duration="110000" />
+      <workItem from="1626865132524" duration="1527000" />
+      <workItem from="1627679097765" duration="528000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1623696591298</created>
@@ -75,52 +103,56 @@
       <option name="project" value="LOCAL" />
       <updated>1623696591298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="crud">
+      <created>1625475248231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625475248231</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="crud" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617010379130">
+    <state x="424" y="99" key="CommitChangelistDialog2" timestamp="1625475344043">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1617010379130" />
-    <state x="424" y="99" key="CommitChangelistDialog2" timestamp="1623696591053">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="424" y="99" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1623696591053" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1617086906010">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1617086906010" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1617086906008">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1617086906008" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1617086906007">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1617086906007" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1617086906009">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1617086906009" />
+    <state x="424" y="99" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1625475344043" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1618399507658">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1618399507658" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1623696593382">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1625475252968">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1623696593382" />
-    <state x="505" y="233" key="search.everywhere.popup" timestamp="1625474325979">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1625475252968" />
+    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1625823345107">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1625474325979" />
+    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1625823345107" />
+    <state x="505" y="233" key="search.everywhere.popup" timestamp="1625554572878">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1625554572878" />
   </component>
 </project>
