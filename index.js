@@ -5,7 +5,6 @@ const fs = require('fs');
 const { StringDecoder } = require('string_decoder');
 
 const config = require('./config');
-const _data = require('./lib/data');
 const handlers = require('./lib/handlers')
 
 // Test
@@ -90,6 +89,7 @@ httpsServer.listen(httpsPort, () => {
 const router = {
 	'user': handlers.user,
 	'token': handlers.token,
+	'check': handlers.check,
 	// funny services
 	'ping': handlers.ping,
 	'hello': handlers.hello,
