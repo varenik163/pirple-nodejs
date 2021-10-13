@@ -20,9 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b26f7d7d-df1b-40b6-ba5b-b915be98232c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/logs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.logs/sbvoky3ugb79ap6aisc7-1630491237930.gz.b64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.logs/sbvoky3ugb79ap6aisc7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accountCreate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accountDeleted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accountEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checksCreate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checksEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checksList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sessionCreate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sessionDeleted.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.data/checks/sbvoky3ugb79ap6aisc7" beforeDir="false" afterPath="$PROJECT_DIR$/.data/checks/sbvoky3ugb79ap6aisc7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/handlers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/handlers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/workers.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/workers.js" afterDir="false" />
     </list>
@@ -35,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,12 +70,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.41" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/handlers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -64,29 +86,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/lib/handlers" />
       <recent name="$PROJECT_DIR$/.data/users" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Base" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -116,7 +127,10 @@
       <workItem from="1626850797619" duration="110000" />
       <workItem from="1626865132524" duration="1527000" />
       <workItem from="1627679097765" duration="22397000" />
-      <workItem from="1628851368287" duration="29101000" />
+      <workItem from="1628851368287" duration="34754000" />
+      <workItem from="1631084916991" duration="4052000" />
+      <workItem from="1632143553905" duration="3960000" />
+      <workItem from="1633941437736" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1623696591298</created>
@@ -153,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629989190891</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="logging">
+      <created>1630492390138</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630492390138</updated>
+    </task>
+    <task id="LOCAL-00007" summary="logging">
+      <created>1630492421782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630492421782</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +205,8 @@
     <MESSAGE value="server and services" />
     <MESSAGE value="check services" />
     <MESSAGE value="workers" />
-    <option name="LAST_COMMIT_MESSAGE" value="workers" />
+    <MESSAGE value="logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="238" key="#JavaScript" timestamp="1628161894253">
@@ -188,10 +217,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="553" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1630064683656" />
-    <state x="424" y="99" key="CommitChangelistDialog2" timestamp="1629989190734">
+    <state x="424" y="99" key="CommitChangelistDialog2" timestamp="1630492421681">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="424" y="99" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1629989190734" />
+    <state x="424" y="99" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1630492421681" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1630064824733">
       <screen x="0" y="25" width="1680" height="954" />
     </state>
@@ -208,17 +237,17 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1630063188888" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1629989230262">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1630492423482">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1629989230262" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1630492423482" />
     <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1629983035192">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1629983035192" />
-    <state x="505" y="233" key="search.everywhere.popup" timestamp="1629987582855">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1630647127439">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1629987582855" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1630647127439" />
   </component>
 </project>
