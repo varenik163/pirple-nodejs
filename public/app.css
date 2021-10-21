@@ -55,6 +55,10 @@ body,p,h1,h2,h3,h4,h5,h6,div,span,header,footer,img,a,a:hover,a:active,a:visited
   font-size: 11px;
 }
 
+.header ul li a:hover{
+    opacity: .7;
+}
+
 .header ul li.loggedIn{
   display: none;
 }
@@ -78,9 +82,14 @@ body.loggedIn .header ul li.loggedOut{
 }
 
 .content {
-  margin-top: 150px;
-  width: 1000px;
-  margin: 150px auto;
+    margin-top: 150px;
+    width: 100%;
+    height: -moz-calc(100% - 111px);
+    height: -webkit-calc(100% - 111px);
+    height: calc(100% - 111px);
+    margin: 0 auto;
+    padding: 150px 20px;
+    box-sizing: border-box;
 }
 
 .footer{

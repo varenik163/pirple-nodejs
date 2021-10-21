@@ -107,7 +107,7 @@ app.logUserOut = function(redirectUser){
   var queryStringObject = {
     'id' : tokenId
   };
-  app.client.request(undefined,'api/tokens','DELETE',queryStringObject,undefined,function(statusCode,responsePayload){
+  app.client.request(undefined,'api/token','DELETE',queryStringObject,undefined,function(statusCode,responsePayload){
     // Set the app.config token as false
     app.setSessionToken(false);
 
@@ -224,7 +224,7 @@ app.formResponseProcessor = function(formId,requestPayload,responsePayload){
       'password' : requestPayload.password
     };
 
-    app.client.request(undefined,'api/tokens','POST',undefined,newPayload,function(newStatusCode,newResponsePayload){
+    app.client.request(undefined,'api/token','POST',undefined,newPayload,function(newStatusCode,newResponsePayload){
       // Display an error on the form if needed
       if(newStatusCode !== 200){
 
@@ -237,14 +237,14 @@ app.formResponseProcessor = function(formId,requestPayload,responsePayload){
       } else {
         // If successful, set the token and redirect the user
         app.setSessionToken(newResponsePayload);
-        window.location = '/checks/all';
+        window.location = '/check/all';
       }
     });
   }
   // If login was successful, set the token in localstorage and redirect the user
   if(formId == 'sessionCreate'){
     app.setSessionToken(responsePayload);
-    window.location = '/checks/all';
+    window.location = '/check/all';
   }
 
   // If forms saved successfully and they have success messages, show them
@@ -261,12 +261,12 @@ app.formResponseProcessor = function(formId,requestPayload,responsePayload){
 
   // If the user just created a new check successfully, redirect back to the dashboard
   if(formId == 'checksCreate'){
-    window.location = '/checks/all';
+    window.location = '/check/all';
   }
 
   // If the user just deleted a check, redirect them to the dashboard
   if(formId == 'checksEdit2'){
-    window.location = '/checks/all';
+    window.location = '/check/all';
   }
 
 };
@@ -321,12 +321,12 @@ app.renewToken = function(callback){
       'id' : currentToken.id,
       'extend' : true,
     };
-    app.client.request(undefined,'api/tokens','PUT',undefined,payload,function(statusCode,responsePayload){
+    app.client.request(undefined,'api/token','PUT',undefined,payload,function(statusCode,responsePayload){
       // Display an error on the form if needed
       if(statusCode == 200){
         // Get the new token details
         var queryStringObject = {'id' : currentToken.id};
-        app.client.request(undefined,'api/tokens','GET',queryStringObject,undefined,function(statusCode,responsePayload){
+        app.client.request(undefined,'api/token','GET',queryStringObject,undefined,function(statusCode,responsePayload){
           // Display an error on the form if needed
           if(statusCode == 200){
             app.setSessionToken(responsePayload);
@@ -378,7 +378,7 @@ app.loadAccountEditPage = function(){
     var queryStringObject = {
       'phone' : phone
     };
-    app.client.request(undefined,'api/users','GET',queryStringObject,undefined,function(statusCode,responsePayload){
+    app.client.request(undefined,'api/user','GET',queryStringObject,undefined,function(statusCode,responsePayload){
       if(statusCode == 200){
         // Put the data into the forms as values where needed
         document.querySelector("#accountEdit1 .firstNameInput").value = responsePayload.firstName;
@@ -410,7 +410,7 @@ app.loadChecksListPage = function(){
     var queryStringObject = {
       'phone' : phone
     };
-    app.client.request(undefined,'api/users','GET',queryStringObject,undefined,function(statusCode,responsePayload){
+    app.client.request(undefined,'api/user','GET',queryStringObject,undefined,function(statusCode,responsePayload){
       if(statusCode == 200){
 
         // Determine how many checks the user has
@@ -423,7 +423,7 @@ app.loadChecksListPage = function(){
             var newQueryStringObject = {
               'id' : checkId
             };
-            app.client.request(undefined,'api/checks','GET',newQueryStringObject,undefined,function(statusCode,responsePayload){
+            app.client.request(undefined,'api/check','GET',newQueryStringObject,undefined,function(statusCode,responsePayload){
               if(statusCode == 200){
                 var checkData = responsePayload;
                 // Make the check data into a table row
@@ -440,7 +440,7 @@ app.loadChecksListPage = function(){
                 td2.innerHTML = responsePayload.url;
                 var state = typeof(responsePayload.state) == 'string' ? responsePayload.state : 'unknown';
                 td3.innerHTML = state;
-                td4.innerHTML = '<a href="/checks/edit?id='+responsePayload.id+'">View / Edit / Delete</a>';
+                td4.innerHTML = '<a href="/check/edit?id='+responsePayload.id+'">View / Edit / Delete</a>';
               } else {
                 console.log("Error trying to load check ID: ",checkId);
               }
@@ -480,7 +480,7 @@ app.loadChecksEditPage = function(){
     var queryStringObject = {
       'id' : id
     };
-    app.client.request(undefined,'api/checks','GET',queryStringObject,undefined,function(statusCode,responsePayload){
+    app.client.request(undefined,'api/check','GET',queryStringObject,undefined,function(statusCode,responsePayload){
       if(statusCode == 200){
 
         // Put the hidden id field into both forms
@@ -504,11 +504,11 @@ app.loadChecksEditPage = function(){
         }
       } else {
         // If the request comes back as something other than 200, redirect back to dashboard
-        window.location = '/checks/all';
+        window.location = '/check/all';
       }
     });
   } else {
-    window.location = '/checks/all';
+    window.location = '/check/all';
   }
 };
 
@@ -546,4 +546,5 @@ app.init = function(){
 // Call the init processes after the window loads
 window.onload = function(){
   app.init();
+  console.log('Hello, motherfucker!')
 };
