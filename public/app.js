@@ -410,8 +410,9 @@ app.loadChecksListPage = function(){
     var queryStringObject = {
       'phone' : phone
     };
+    console.log('loading user...');
     app.client.request(undefined,'api/user','GET',queryStringObject,undefined,function(statusCode,responsePayload){
-      if(statusCode == 200){
+      if(statusCode === 200){
 
         // Determine how many checks the user has
         var allChecks = typeof(responsePayload.checks) == 'object' && responsePayload.checks instanceof Array && responsePayload.checks.length > 0 ? responsePayload.checks : [];
@@ -423,6 +424,7 @@ app.loadChecksListPage = function(){
             var newQueryStringObject = {
               'id' : checkId
             };
+            console.log('loading check...');
             app.client.request(undefined,'api/check','GET',newQueryStringObject,undefined,function(statusCode,responsePayload){
               if(statusCode == 200){
                 var checkData = responsePayload;
@@ -481,11 +483,11 @@ app.loadChecksEditPage = function(){
       'id' : id
     };
     app.client.request(undefined,'api/check','GET',queryStringObject,undefined,function(statusCode,responsePayload){
-      if(statusCode == 200){
+      if(statusCode === 200){
 
         // Put the hidden id field into both forms
         var hiddenIdInputs = document.querySelectorAll("input.hiddenIdInput");
-        for(var i = 0; i < hiddenIdInputs.length; i++){
+        for(let i = 0; i < hiddenIdInputs.length; i++){
             hiddenIdInputs[i].value = responsePayload.id;
         }
 
@@ -498,7 +500,7 @@ app.loadChecksEditPage = function(){
         document.querySelector("#checksEdit1 .timeoutInput").value = responsePayload.timeoutSeconds;
         var successCodeCheckboxes = document.querySelectorAll("#checksEdit1 input.successCodesInput");
         for(var i = 0; i < successCodeCheckboxes.length; i++){
-          if(responsePayload.successCodes.indexOf(parseInt(successCodeCheckboxes[i].value)) > -1){
+          if(responsePayload.successCode.indexOf(parseInt(successCodeCheckboxes[i].value)) > -1){
             successCodeCheckboxes[i].checked = true;
           }
         }
