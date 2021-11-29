@@ -19,20 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b26f7d7d-df1b-40b6-ba5b-b915be98232c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.data/checks/sbvoky3ugb79ap6aisc7" beforeDir="false" afterPath="$PROJECT_DIR$/.data/checks/sbvoky3ugb79ap6aisc7" afterDir="false" />
+    <list default="true" id="b26f7d7d-df1b-40b6-ba5b-b915be98232c" name="Default Changelist" comment="templates">
+      <change beforePath="$PROJECT_DIR$/.data/checks/4kwjygogaaxgplw64e5o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/checks/9qv7mdgvinr9og7hp94m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/checks/a3ldybixr0nu90wn9nwl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/checks/ksijcyakg16gfgd08pky" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/checks/misyf9xlcg10s6wt3d6v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/checks/sbvoky3ugb79ap6aisc7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/checks/u0xquzor370uwubtkw5d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.logs/sbvoky3ugb79ap6aisc7-1630491237930.gz.b64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.logs/sbvoky3ugb79ap6aisc7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/check/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/handlers/check/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/handlers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/handlers/user/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/checksCreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/checkCreate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/checksEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/checkEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sessionDeleted.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sessionDeleted.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.logs/4kwjygogaaxgplw64e5o.log" beforeDir="false" afterPath="$PROJECT_DIR$/.logs/4kwjygogaaxgplw64e5o.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.logs/9qv7mdgvinr9og7hp94m.log" beforeDir="false" afterPath="$PROJECT_DIR$/.logs/9qv7mdgvinr9og7hp94m.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.logs/sbvoky3ugb79ap6aisc7.log" beforeDir="false" afterPath="$PROJECT_DIR$/.logs/sbvoky3ugb79ap6aisc7.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,19 +223,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="templates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="238" key="#JavaScript" timestamp="1628161894253">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="560" y="238" key="#JavaScript/0.0.1680.1050@0.0.1680.1050" timestamp="1628161894253" />
     <state x="553" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630064683656">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="553" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1630064683656" />
-    <state x="646" y="132" key="CommitChangelistDialog2" timestamp="1636621693340">
+    <state x="646" y="132" key="CommitChangelistDialog2" timestamp="1638176531672">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="424" y="99" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1630492421681" />
-    <state x="646" y="132" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1636621693340" />
+    <state x="646" y="132" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1638176531672" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1630064824733">
       <screen x="0" y="25" width="1680" height="954" />
     </state>
