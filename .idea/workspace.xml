@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b26f7d7d-df1b-40b6-ba5b-b915be98232c" name="Default Changelist" comment="cli">
+    <list default="true" id="b26f7d7d-df1b-40b6-ba5b-b915be98232c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helpers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +65,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.14.2" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.41" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.18.12" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -91,7 +93,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -129,9 +131,11 @@
       <workItem from="1636550386032" duration="599000" />
       <workItem from="1638448927814" duration="1330000" />
       <workItem from="1639815711978" duration="6361000" />
-      <workItem from="1640600031613" duration="11621000" />
-      <workItem from="1641825195412" duration="602000" />
-      <workItem from="1642073803993" duration="3290000" />
+      <workItem from="1640600031613" duration="7601000" />
+      <workItem from="1645706662911" duration="7364000" />
+      <workItem from="1647500118597" duration="6020000" />
+      <workItem from="1647931948842" duration="584000" />
+      <workItem from="1647934718185" duration="794000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1623696591298</created>
@@ -196,31 +200,23 @@
       <option name="project" value="LOCAL" />
       <updated>1638177458938</updated>
     </task>
-    <task id="LOCAL-00010" summary="cli">
-      <created>1641545545696</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1641545545696</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -230,25 +226,24 @@
     <MESSAGE value="workers" />
     <MESSAGE value="logging" />
     <MESSAGE value="templates" />
-    <MESSAGE value="cli" />
-    <option name="LAST_COMMIT_MESSAGE" value="cli" />
+    <option name="LAST_COMMIT_MESSAGE" value="templates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="646" y="132" key="CommitChangelistDialog2" timestamp="1642073826230">
+    <state x="646" y="132" key="CommitChangelistDialog2" timestamp="1641545510378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="646" y="132" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1642073826230" />
-    <state x="1140" y="622" key="Github.Dialog.Accounts.Choose" timestamp="1641545602266">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="646" y="132" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1641545510378" />
+    <state x="349" y="161" key="SettingsEditor" timestamp="1645882158772">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="1140" y="622" key="Github.Dialog.Accounts.Choose/0.0.2560.1400@0.0.2560.1400" timestamp="1641545602266" />
-    <state x="670" y="349" key="Vcs.Push.Dialog.v2" timestamp="1641545597686">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1645882158772" />
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642676375890">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="670" y="349" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1641545597686" />
-    <state x="824" y="373" width="910" height="654" key="find.popup" timestamp="1636264565958">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1642676375890" />
+    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1647503545243">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="824" y="373" width="910" height="654" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1636264565958" />
+    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1647503545243" />
   </component>
 </project>
